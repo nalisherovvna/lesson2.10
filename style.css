@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.header_ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.logo {
+    width: 120.043px;
+    height: 32.674px;
+    flex-shrink: 0;
+    fill: #34313D;
+}
+
+ul {
+    display: flex;
+    gap: 29px;
+    list-style: none;
+}
+
+li {
+    color: #9E9AA8;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn1 {
+    color: #9E9AA8;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    background: none;
+    margin-left: 500px;
+}
+
+.btn1:hover {
+    cursor: pointer;
+    transform: scale(0.70);
+}
+
+.btn2 {
+    width: 105px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background: #2BD0D0;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+
+.btn2:hover {
+    cursor: pointer;
+    transform: scale(0.70);
+}
+
+
+.head_item {
+    display: flex;
+}
+
+.right {
+    padding-top: 150px;
+}
+
+.right_h1 {
+    width: 565px;
+    color: #34313D;
+    font-family: Poppins;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90px;
+    /* 112.5% */
+    letter-spacing: -2px;
+}
+
+.right_p {
+    width: 540px;
+    color: #9E9AA8;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    /* 163.636% */
+    letter-spacing: 0.15px;
+}
+
+.btn3 {
+    width: 197px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background: #2BD0D0;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 20px;
+    border: none;
+}
+
+.btn3:hover {
+    cursor: pointer;
+    transform: scale(0.80);
+}
+
+.people {
+    width: 600px;
+    height: 482px;
+    flex-shrink: 0;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.footer {
+    position: relative;
+    width: 1300px;
+    height: 270px;
+    flex-shrink: 0;
+    background: rgb(132, 48, 48);
+    margin-top: 200px;
+    margin-left: -40px;
+}
+
+.search_bar {
+    position: absolute;
+    width: 1110px;
+    height: 168px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #3A3054;
+    margin-left: 100px;
+    top: -80px;
+}
+
+
+input {
+    width: 769px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #3A3054;
+    border-radius: 10px;
+    background: #FFF;
+    margin-top: 50px;
+    margin-left: 40px;
+    border: none;
+}
+
+.btn4 {
+    width: 188px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #2BD0D0;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    margin-left: 20px;
+}
+
+.foot_h1 {
+    width: 540px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 120% */
+    letter-spacing: -1px;
+    padding-top: 100px;
+    margin-left: 400px;
+}
+
+.btn5 {
+    width: 197px;
+    height: 60.48px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background: #2BD0D0;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 600px;
+    margin-top: 10px;
+    border: none;
+}
+
+.btn5:hover {
+    cursor: pointer;
+    transform: scale(0.80);
+}
+
+.footer_item {
+    display: flex;
+    width: 1300px;
+    margin-left: -32px;
+    height: 150.202px;
+    flex-shrink: 0;
+    background: #232127;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.logoo {
+    width: 120.043px;
+    height: 29px;
+    flex-shrink: 0;
+    fill: #FFF;
+    padding-top: -60px;
+}
+
+.footer_ul {
+    display: flex;
+    gap: 50px;
+}
+
+.footer_li {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.25px;
+    margin-left: 30px;
+}
+
+.social {
+    width: 168px;
+    height: 20px;
+    flex-shrink: 0;
+   margin-left: 600px;
+}
